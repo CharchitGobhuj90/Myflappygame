@@ -4,6 +4,11 @@ body {
 }
 
 #board {
-    /* background-color: skyblue; */
+    /* Set the new dimensions */
+    width: 800px;
+    height: 600px;
+
+    /* Keep the background image */
     background-image: url("./flappybirdbg.png");
+    background-size: cover; /* Ensures the image scales properly */
 }
